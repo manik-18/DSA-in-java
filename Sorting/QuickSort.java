@@ -23,7 +23,7 @@ public class QuickSort {
 		int i=l;
 		int j=h;
 		while(i<j) {
-			while(a[i]<=pivot) i++;
+			while(a[i]<=pivot && i<j) i++;
 			while(a[j]>pivot) j--;
 			if(i<j) {
 				int temp=a[i];
