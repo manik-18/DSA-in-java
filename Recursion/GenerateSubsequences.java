@@ -1,4 +1,4 @@
-public class GenerateSubsets {
+public class GenerateSubsequences {
 	static void printSub(String str, String curr, int index)
 	{
 		if(index == str.length())
